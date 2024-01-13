@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+}
+.row{
+    display: flex;
+    
+}
+.div1{
+    background-color: grey;
+    border: 2px solid black ;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    overflow: scroll;
+    margin-top: 20px;
+ 
+    
+}
+
+.div2{
+    background-color: grey;
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+    margin-top: 170px;
+   float: left;
+   margin-left: 235px;
+   margin-bottom: 70px;
+   margin: 20px;
+   justify-content: space-between;
+   
+  
+    
+}
+.div3{
+    background-color: gray;
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    overflow: auto;
+    float: left;
+    margin: 20px;
+    md: col -12px;
+}
+.heading{
+    text-align: right;
+    left: 200px;
+    border: 10px;
+}
+.heading1{
+    text-align: right;
+    border: 5px;
+}
+.heading2{
+    text-align: right;
+}
+.first{
+    text-align: center;
+    background-color: wheat;
+    color: black;
+    border-style: double;
+   
+}
+@media screen {min-width: 768px max-width: 991px;;
+    
+}
